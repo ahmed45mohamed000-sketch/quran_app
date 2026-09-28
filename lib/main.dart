@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.transparent,
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
           showSelectedLabels: true,
-          showUnselectedLabels: false,
+          showUnselectedLabels: true,
           selectedItemColor: Colors.black,
           unselectedItemColor: Colors.white,
           selectedIconTheme: IconThemeData(size: 40),
